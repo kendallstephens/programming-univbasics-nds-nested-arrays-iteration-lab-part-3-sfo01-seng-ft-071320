@@ -7,5 +7,6 @@ def join_nested_strings(src)
     just_the_strings << src[row_index][element_index].join[]
  element_index +=1
    end
+   row_index +=1
 just_the_strings
  end
